@@ -1,10 +1,10 @@
-# NASA_POTD_API
-
 A simple webpage that fetches and displays NASA's Astronomy Picture of the Day using their API.
 
-Features
+# Features
 Fetches the Astronomy Picture of the Day from NASA's API.
-Displays the title, date, description, and the image of the APOD.
+
+Displays the title, date, description, and image of the APOD.
+
 Background animation.
 
 # INSTRUCTIONS
