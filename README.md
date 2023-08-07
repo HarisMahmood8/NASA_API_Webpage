@@ -1,4 +1,4 @@
-## Description
+![image](https://github.com/HarisMahmood8/NASA_API_Webpage/assets/114548524/dd30d2d9-cabf-4f47-91fd-ab2fb2cc84f7)## Description
 
 A simple webpage that fetches and displays NASA's Astronomy Picture of the Day using their API.
 
@@ -30,4 +30,4 @@ Background animation.
 
 
 
-![Untitled video - Made with Clipchamp](https://github.com/HarisMahmood8/NASA_POTD_API/assets/114548524/33e33659-9a17-4210-9bde-c4aa526a815b)
+![image](https://github.com/HarisMahmood8/NASA_API_Webpage/assets/114548524/ca4229a9-c0a9-4cee-ae6c-d7b847839278)
