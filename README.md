@@ -10,15 +10,18 @@ Background animation.
 
 ## INSTRUCTIONS
 
-Clone to your local machine.
+1. Clone to your local machine.
 
-      git clone https://github.com/HarisMahmood8/NASA_API_Webpage.git
+         git clone https://github.com/HarisMahmood8/NASA_API_Webpage.git
 
-Change to the project directory.
+2. Change to the project directory.
       
-      cd NASA_API_Webpage
+            cd NASA_API_Webpage
 
-Open the html file in your browser(VSCODE: Download Live Server --> right click -> open with Live Server)
+3. Replace 'INSERT_API_LINK_HERE' with NASA APOD API
+
+
+4. Open the html file in your browser(VSCODE: Download Live Server --> right click -> open with Live Server)
 
 
 ## Picture
