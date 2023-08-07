@@ -18,7 +18,7 @@ Background animation.
 
 2. Change to the project directory.
       
-            cd NASA_API_Webpage
+         cd NASA_API_Webpage
 
 3. Replace 'INSERT_API_LINK_HERE' with NASA APOD API
 
@@ -26,7 +26,6 @@ Background animation.
 4. Open the html file in your browser(VSCODE: Download Live Server --> right click -> open with Live Server)
 
 
-## Picture
 ![image](https://github.com/HarisMahmood8/NASA_POTD_API/assets/114548524/37442112-f62b-4f2a-8055-c0637828d672)
 
 
