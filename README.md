@@ -1,3 +1,5 @@
+## Description
+
 A simple webpage that fetches and displays NASA's Astronomy Picture of the Day using their API.
 
 ## Features
