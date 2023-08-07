@@ -1,6 +1,7 @@
 A simple webpage that fetches and displays NASA's Astronomy Picture of the Day using their API.
 
 ## Features
+
 Fetches the Astronomy Picture of the Day from NASA's API.
 
 Displays the title, date, description, and image of the APOD.
@@ -11,10 +12,11 @@ Background animation.
 
 Clone to your local machine.
 
-  git clone https://github.com/HarisMahmood8/NASA_API_Webpage.git
+      git clone https://github.com/HarisMahmood8/NASA_API_Webpage.git
 
 Change to the project directory.
-  cd NASA_API_Webpage
+      
+      cd NASA_API_Webpage
 
 open the html file in your browser(VSCODE: Download Live Server --> right click -> open with Live Server)
 
