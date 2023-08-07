@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Astronomy Picture of the Day</title>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #000000;
+            margin: 0;
+            padding: 20px;
+            overflow: hidden;
+        }
+        h1 {
+            text-align: center;
+        }
+        #apod-container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #fff;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            position: relative;
+        }
+        #apod-image {
+            max-width: 100%;
+            display: block;
+            margin: 20px auto;
+            border-radius: 5px;
+        }
+
+        @keyframes moveStars {
+            0% {
+                background-position: 0 0;
+            }
+            100% {
+                background-position: 500px 500px;
+            }
+        }
+
+        body {
+            animation: moveStars 20s linear infinite;
+            background-image: url('https://www.transparenttextures.com/patterns/stardust.png');
+        }
+    </style>
+</head>
+<body>
+    <h1>Astronomy Picture of the Day</h1>
+    <div id="apod-container">
+        <h2 id="apod-title"></h2>
+        <p id="apod-date"></p>
+        <p id="apod-description"></p>
+        <img id="apod-image" src="" alt="APOD">
+    </div>
+
+    <script>
+        const nasaApiKey = 'INSERT_API_LINK_HERE';
+        const apiUrl = `https://api.nasa.gov/planetary/apod?api_key=${nasaApiKey}`;
+
+        fetch(apiUrl)
+            .then(response => response.json())
+            .then(data => {
+                const apodTitle = document.getElementById('apod-title');
+                const apodDate = document.getElementById('apod-date');
+                const apodDescription = document.getElementById('apod-description');
+                const apodImage = document.getElementById('apod-image');
+
+                if (data.hdurl) {
+                    apodTitle.textContent = data.title;
+                    apodDate.textContent = data.date;
+                    apodDescription.textContent = data.explanation;
+                    apodImage.src = data.hdurl;
+                    apodImage.alt = data.title;
+                } else {
+                    console.error('Error: hdurl is not available in the API response.');
+                }
+            })
+            .catch(error => {
+                console.error('Error fetching APOD data:', error);
+            });
+    </script>
+</body>
+</html>
